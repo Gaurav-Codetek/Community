@@ -1,13 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-img {
+  background: url("./Components/Images/Bg.jpg");
+  /* background-size: cover; */
+}
+
+.hw-huge {
+  /* height: 2000px; */
+  /* padding: 2000px; */
+}
+
+.transition-2 {
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.border-grad {
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 10px;
+  border-style: solid;
+}
+
+.drop-shadow-man {
+  filter: drop-shadow(0 0 0.3rem #0f0b61);
+}
+
+.drop-shadow-man-lg {
+  filter: drop-shadow(0 0 0.75rem #4f46e5);
+}
+
+/* .grad-rad{
+  background
+} */
+
+.top-30 {
+  top: 132px;
+}
+
+.left-18 {
+  left: 68px;
+}
+
+.animate-fade-tb {
+  animation-name: fadeTB;
+  animation-duration: 500ms;
+}
+
+@keyframes fadeTB {
+  0% {
+    opacity: 0;
+    top: 51px;
+  }
+
+  100% {
+    opacity: 1;
+    top: 56px;
+  }
+}
+
+.animate-fade-rl {
+  animation-name: fadeRL;
+  animation-duration: 500ms;
+}
+
+@keyframes fadeRL {
+  0% {
+    opacity: 0;
+    left: 72px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 68px;
+  }
+}
+
+.animate-fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  0% {
+    filter: drop-shadow(0 0 0 #4f46e5);
+    opacity: 0;
+  }
+
+  50%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 0.75rem #4f46e5);
+  }
+}
+
+.animate-fadeOnly{
+  animation-name: fadeOnly;
+  animation-duration: 1s;
+}
+
+@keyframes fadeOnly{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.animate-fade-seq-1{
+  animation-name: fadeSeq1;
+  animation-duration: 700ms;
+}
+
+@keyframes fadeSeq1 {
+  0%{
+    opacity: 0;
+  }
+
+  30%{
+    opacity: 0;
+  }
+
+  80%{
+    opacity:1;
+  }
+}
+
+.animate-fade-seq-2{
+  animation-name: fadeSeq2;
+  animation-duration: 700ms;
+}
+
+@keyframes fadeSeq2{
+  0%{
+    opacity: 0;
+  }
+
+  50%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+/* .box-shadow-man{
+  box-shadow: ;
+} */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
