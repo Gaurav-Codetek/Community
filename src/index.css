@@ -33,8 +33,94 @@
   top: 132px;
 }
 
+.text-55xl {
+  font-size: 54px;
+  line-height: 1;
+}
+
 .left-18 {
   left: 68px;
+}
+
+.animate-sat {
+  animation-name: sat;
+  animation-duration: 12s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sat {
+  0%,
+  100% {
+    transform: rotate(-45deg);
+  }
+
+  10% {
+    transform: rotate(45deg);
+  }
+
+  20% {
+    right: 128px;
+    top: 176px;
+  }
+
+  25% {
+    transform: rotate(25deg);
+  }
+
+  30% {
+    right: 96px;
+    top: 128px;
+  }
+
+  34% {
+    transform: rotate(90deg);
+  }
+
+  38% {
+    right: 56px;
+    top: 128px;
+  }
+
+  42% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    right: 56px;
+    top: 56px;
+  }
+
+  58% {
+    transform: rotate(-180deg);
+  }
+
+  62% {
+    right: 56px;
+    top: 128px;
+  }
+
+  66%{
+    transform: rotate(-90deg);
+  }
+
+  70%{
+    right: 96px;
+    top: 128px;
+  }
+
+  75%{
+    transform: rotate(-135deg);
+  }
+
+  80%{
+    right: 128px;
+    top: 176px;
+  }
+
+  90%{
+    transform: rotate(-90deg);
+  }
 }
 
 .animate-fade-tb {
@@ -45,12 +131,12 @@
 @keyframes fadeTB {
   0% {
     opacity: 0;
-    top: 51px;
+    top: 45px;
   }
 
   100% {
     opacity: 1;
-    top: 56px;
+    top: 48px;
   }
 }
 
@@ -71,6 +157,21 @@
   }
 }
 
+.animate-line {
+  animation-name: line;
+  animation-duration: 1s;
+}
+
+@keyframes line {
+  0% {
+    width: 2px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
 .animate-fade {
   animation-name: fade;
   animation-duration: 1s;
@@ -82,7 +183,7 @@
     opacity: 0;
   }
 
-  50%{
+  50% {
     opacity: 1;
   }
   100% {
@@ -91,54 +192,54 @@
   }
 }
 
-.animate-fadeOnly{
+.animate-fadeOnly {
   animation-name: fadeOnly;
   animation-duration: 1s;
 }
 
-@keyframes fadeOnly{
-  0%{
+@keyframes fadeOnly {
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
 
-.animate-fade-seq-1{
+.animate-fade-seq-1 {
   animation-name: fadeSeq1;
   animation-duration: 700ms;
 }
 
 @keyframes fadeSeq1 {
-  0%{
+  0% {
     opacity: 0;
   }
 
-  30%{
+  30% {
     opacity: 0;
   }
 
-  80%{
-    opacity:1;
+  80% {
+    opacity: 1;
   }
 }
 
-.animate-fade-seq-2{
+.animate-fade-seq-2 {
   animation-name: fadeSeq2;
   animation-duration: 700ms;
 }
 
-@keyframes fadeSeq2{
-  0%{
+@keyframes fadeSeq2 {
+  0% {
     opacity: 0;
   }
 
-  50%{
+  50% {
     opacity: 0;
   }
 
-  100%{
+  100% {
     opacity: 1;
   }
 }
