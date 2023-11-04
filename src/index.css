@@ -7,11 +7,6 @@
   /* background-size: cover; */
 }
 
-.hw-huge {
-  /* height: 2000px; */
-  /* padding: 2000px; */
-}
-
 .transition-2 {
   transition-property: all;
   transition-duration: 1s;

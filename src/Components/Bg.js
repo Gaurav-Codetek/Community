@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from './Images/Bg.jpg'
+// import bg from './Images/Bg.jpg'
 import Navbar from './Navbar';
 import MastSection from './MastSection';
 

@@ -1,8 +1,8 @@
-import react from 'react'
+import React from 'react'
 import { VscSymbolNamespace } from 'react-icons/vsc'
 import { GoDotFill } from 'react-icons/go'
 import Connect from './Images/connect.png'
-import shade from './Images/shade_bg.png'
+// import shade from './Images/shade_bg.png'
 import ConnLine from './Images/Untitled_design__45_-removebg-preview.png'
 
 function MastSection() {
