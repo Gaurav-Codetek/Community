@@ -2,6 +2,7 @@ import React from 'react'
 // import bg from './Images/Bg.jpg'
 import Navbar from './Navbar';
 import MastSection from './MastSection';
+import Partner from './Partner';
 
 function Bg(){
     return(
@@ -9,6 +10,7 @@ function Bg(){
         <div className="bg-cover relative -z-0 bg-img h-screen overflow-x-hidden">
             <Navbar/>
             <MastSection/>
+            <Partner/>
         </div>
         </>
     );

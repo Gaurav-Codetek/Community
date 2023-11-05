@@ -25,6 +25,10 @@
   filter: drop-shadow(0 0 0.75rem #4f46e5);
 }
 
+.drop-shadow-man-lg-part{
+  filter: drop-shadow(0 0 0.75rem rgb(132 204 22));
+}
+
 /* .grad-rad{
   background
 } */
