@@ -22,7 +22,7 @@ function MastSection() {
             <div className=" ">
                 <img src={Sat} alt="Satellite" className=' absolute  right-44 top-44 h-14 w-14 -rotate-45 animate-sat -z-30' />
             </div>
-            <div className=" relative h-91 w-full px-8 mt-32" >
+            <div className=" relative h-fit w-full px-8 mt-32" >
                 <div className=" w-full text-white h-5/6">
                     <div className="absolute top-20 left-5 h-36 w-10">
                         <img src={ConnLine} className='' alt="Connect-Line" />
@@ -38,7 +38,7 @@ function MastSection() {
                         <p className="text-base flex items-center"><GoDotFill color='rgb(34 197 94)' className="mt-0.5 mr-px" />backed by<b className="text-green-500 p-px ml-0.5"> DIC</b></p>
                     </div>
 
-                    <div className="flex-col absolute top-40 ">
+                    <div className="flex-col pt-40">
                         <h1 className="text-left text-55xl font-semibold mr-14 pl-8 animate-fadeOnly mb-4">Let's start from here</h1>
                         <h1 className="text-slate-500 text-left pl-8 mr-16 text-2xl mb-8 animate-fadeOnly">One-stop Platform to surf various<b className='ml-2 text-cyan-400'>PROJECTS</b></h1>
                         <input type="text" name="email" id="email" placeholder='Email address' className="animate-fade-seq-1 w-4/5 mb-3 py-2 rounded-md text-black border-2 focus:border-indigo-600 outline-none px-2" />
