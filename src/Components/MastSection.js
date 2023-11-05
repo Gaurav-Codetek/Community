@@ -50,7 +50,7 @@ function MastSection() {
                     dads
                 </div>
                 {/* <div className="w-full "> */}
-                    <div id="line" className="w-full transition-2 left-8 absolute top-44 animate-line bg-gradient-to-r from-indigo-600 from-50% via-indigo-500 via-80% to-indigo-300  p-px  rounded-sm rotate-90 origin-left transition-2">
+                    <div id="line" className="w-full transition-2 left-8 absolute top-44 animate-line bg-gradient-to-r from-indigo-600 from-50% via-indigo-500 via-60% to-lime-300   p-px  rounded-sm rotate-90 origin-left transition-2">
                         {/* <hr id="line" className="w-10 border-y-2 border-violet-400 rotate-90 origin-left transition-2"/> */}
                     {/* </div> */}
                 </div>

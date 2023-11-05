@@ -1,12 +1,20 @@
 import React from "react";
 import { AiOutlineApartment } from 'react-icons/ai'
+import Dic from './Images/DIC-bw.png'
 
 function Partner(){
     return(
         <>
         <div className="relative h-full mt-0">
+            <div className="text-white absolute top-24 left-14 text-lg">
+                <h1>Our Partners</h1>
+            </div>
             <div className="absolute top-24 left-4 bg-lime-500 rounded-full drop-shadow-man-lg-part p-1">
                 <AiOutlineApartment color="white" size="25"/>
+            </div>
+
+            <div className="absolute top-36 left-14">
+                <img src={Dic} alt="DIC" className="h-28 w-28" />
             </div>
             {/* <div className="w-full transition-2 left-8 absolute top-36"> */}
                     <div id="line" className="w-full transition-2 left-8 absolute top-36 animate-line bg-gradient-to-r from-lime-600 from-50% via-lime-500 via-80% to-lime-300  p-px  rounded-sm rotate-90 origin-left transition-2">
