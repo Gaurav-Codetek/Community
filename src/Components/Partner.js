@@ -4,8 +4,8 @@ import { AiOutlineApartment } from 'react-icons/ai'
 function Partner(){
     return(
         <>
-        <div className="relative h-full">
-            <div className="absolute top-24 left-4 bg-lime-500 rounded-full drop-shadow-man-lg-part p-1">
+        <div className="relative h-full ">
+            <div className="absolute top-0 left-4 bg-lime-500 rounded-full drop-shadow-man-lg-part p-1">
                 <AiOutlineApartment color="white" size="25"/>
             </div>
             <div className="w-full transition-2 left-8 absolute top-36">

@@ -22,7 +22,7 @@ function MastSection() {
             <div className=" ">
                 <img src={Sat} alt="Satellite" className=' absolute  right-44 top-44 h-14 w-14 -rotate-45 animate-sat -z-30' />
             </div>
-            <div className=" relative h-4/5 w-full px-8 mt-32" >
+            <div className=" relative h-full w-full px-8 mt-32" >
                 <div className=" w-full text-white h-5/6">
                     <div className="absolute top-20 left-5 h-36 w-10">
                         <img src={ConnLine} className='' alt="Connect-Line" />
@@ -54,7 +54,11 @@ function MastSection() {
                         {/* <hr id="line" className="w-10 border-y-2 border-violet-400 rotate-90 origin-left transition-2"/> */}
                     </div>
                 </div>
+                <div className=" mt-16">
+                <hr />
             </div>
+            </div>
+            
         </>
     );
 }
