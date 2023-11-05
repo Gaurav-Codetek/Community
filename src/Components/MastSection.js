@@ -22,7 +22,7 @@ function MastSection() {
             <div className=" ">
                 <img src={Sat} alt="Satellite" className=' absolute  right-44 top-44 h-14 w-14 -rotate-45 animate-sat -z-30' />
             </div>
-            <div className=" relative h-full w-full px-8 mt-32" >
+            <div className=" relative h-91 w-full px-8 mt-32" >
                 <div className=" w-full text-white h-5/6">
                     <div className="absolute top-20 left-5 h-36 w-10">
                         <img src={ConnLine} className='' alt="Connect-Line" />
@@ -38,7 +38,7 @@ function MastSection() {
                         <p className="text-base flex items-center"><GoDotFill color='rgb(34 197 94)' className="mt-0.5 mr-px" />backed by<b className="text-green-500 p-px ml-0.5"> DIC</b></p>
                     </div>
 
-                    <div className="flex-col absolute top-40 h-full">
+                    <div className="flex-col absolute top-40 ">
                         <h1 className="text-left text-55xl font-semibold mr-14 pl-8 animate-fadeOnly mb-4">Let's start from here</h1>
                         <h1 className="text-slate-500 text-left pl-8 mr-16 text-2xl mb-8 animate-fadeOnly">One-stop Platform to surf various<b className='ml-2 text-cyan-400'>PROJECTS</b></h1>
                         <input type="text" name="email" id="email" placeholder='Email address' className="animate-fade-seq-1 w-4/5 mb-3 py-2 rounded-md text-black border-2 focus:border-indigo-600 outline-none px-2" />
@@ -49,10 +49,10 @@ function MastSection() {
                 <div className="hidden bg-white w-2/5">
                     dads
                 </div>
-                <div className="w-full transition-2 left-8 absolute top-44">
-                    <div id="line" className="w-full animate-line bg-gradient-to-r from-indigo-600 from-50% via-indigo-500 via-80% to-indigo-300  p-px  rounded-sm rotate-90 origin-left transition-2">
+                {/* <div className="w-full "> */}
+                    <div id="line" className="w-full transition-2 left-8 absolute top-44 animate-line bg-gradient-to-r from-indigo-600 from-50% via-indigo-500 via-80% to-indigo-300  p-px  rounded-sm rotate-90 origin-left transition-2">
                         {/* <hr id="line" className="w-10 border-y-2 border-violet-400 rotate-90 origin-left transition-2"/> */}
-                    </div>
+                    {/* </div> */}
                 </div>
                 <div className=" mt-16">
                 <hr />
