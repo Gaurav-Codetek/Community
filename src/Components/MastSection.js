@@ -54,9 +54,9 @@ function MastSection() {
                         {/* <hr id="line" className="w-10 border-y-2 border-violet-400 rotate-90 origin-left transition-2"/> */}
                     {/* </div> */}
                 </div>
-                <div className=" mt-16">
+                {/* <div className=" mt-16">
                 <hr />
-            </div>
+            </div> */}
             </div>
             
         </>
