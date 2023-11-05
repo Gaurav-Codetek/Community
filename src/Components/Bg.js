@@ -7,7 +7,7 @@ import Partner from './Partner';
 function Bg(){
     return(
         <>
-        <div className="bg-cover relative -z-0 bg-img h-screen overflow-x-hidden">
+        <div className="bg-cover relative -z-0 bg-img h-full overflow-x-hidden">
             <Navbar/>
             <MastSection/>
             <Partner/>
