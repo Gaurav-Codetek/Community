@@ -39,10 +39,10 @@ function MastSection() {
                     </div>
 
                     <div className="flex-col pt-40">
-                        <h1 className="text-left text-55xl font-semibold mr-14 pl-8 animate-fadeOnly mb-4">Let's start from here</h1>
-                        <h1 className="text-slate-500 text-left pl-8 mr-16 text-2xl mb-8 animate-fadeOnly">One-stop Platform to surf various<b className='ml-2 text-cyan-400'>PROJECTS</b></h1>
+                        <h1 className="text-left text-55xl font-semibold mr-12 pl-8 animate-fadeOnly mb-4">Let's start from here</h1>
+                        <h1 className="text-slate-500 text-left pl-8 mr-12 text-2xl mb-8 animate-fadeOnly">One-stop Platform to surf various<b className='ml-2 text-cyan-400'>PROJECTS</b></h1>
                         <input type="text" name="email" id="email" placeholder='Email address' className="animate-fade-seq-1 w-4/5 mb-3 py-2 rounded-md text-black border-2 focus:border-indigo-600 outline-none px-2" />
-                        <input type="submit" value="Sign up for CodersTek Community" className="animate-fade-seq-2 bg-indigo-900 hover:bg-indigo-950 py-3 font-bold w-4/5 rounded-md" />
+                        <input type="submit" value="Sign up for CodersTek" className="animate-fade-seq-2 bg-indigo-900 hover:bg-indigo-950 py-3 font-bold w-4/5 rounded-md" />
                     </div>
                 </div>
 
