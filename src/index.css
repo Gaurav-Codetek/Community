@@ -50,6 +50,21 @@
   left: 68px;
 }
 
+.animate-gen{
+  animation-name: fadeGen;
+  animation-duration: 2s;
+}
+
+@keyframes fadeGen{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
 .animate-sat {
   animation-name: sat;
   animation-duration: 12s;
@@ -167,7 +182,7 @@
 
 .animate-line {
   animation-name: line;
-  animation-duration: 1s;
+  animation-duration: 3s;
 }
 
 @keyframes line {
