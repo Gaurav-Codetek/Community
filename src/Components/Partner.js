@@ -14,7 +14,7 @@ function Partner() {
         // let a = document.getElementsByClassName('section')
         const observer = new IntersectionObserver(([entry]) => {
             setIsIntersecting(entry.isIntersecting);
-            console.log(isIntersecting)
+            // console.log(isIntersecting)
         }, { rootMargin:"-180px", threshold: 1});
         observer.observe(ref.current);
 
@@ -59,7 +59,7 @@ function Partner() {
 
     return (
         <>
-            <div className="relative h-full mt-0">
+            <div className="relative h-full mt-0 ">
                 <div ref={refPartner} className="">
                 <div className="hidden text-white absolute top-24 left-14 text-lg">
                     <h1>Our Partners</h1>
@@ -75,6 +75,9 @@ function Partner() {
                     </div>
                     <div id="section" className=" hidden sec absolute top-40 left-56">
                         <img src={uiet} alt="UIET" className="h-28 w-28" />
+                    </div>
+                    <div className="hidden absolute text-white text-left text-2xl mr-10 pl-14 top-80">
+                        Our <b className="text-lime-500">Partners</b> help us to familiarize ongoing projects with the curated people.
                     </div>
                 </div>
                 <div ref={refLine} className="">
