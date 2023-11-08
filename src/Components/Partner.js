@@ -71,7 +71,7 @@ function Partner() {
                         <AiOutlineApartment color="white" size="25" />
                     </div>
                     <div ref={refLine} className="">
-                        <div className="hidden w-full left-8 absolute top-14 bg-gradient-to-r from-lime-600 from-50% via-lime-500 via-60% to-orange-600  p-px  rounded-sm rotate-90 origin-left transition-2">
+                        <div className="hidden w-full left-8 absolute top-14 bg-gradient-to-r from-lime-600 from-50% via-lime-500 via-60% to-orange-400  p-px  rounded-sm rotate-90 origin-left transition-2">
                         </div>
                     </div>
 
