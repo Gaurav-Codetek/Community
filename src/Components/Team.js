@@ -15,7 +15,7 @@ function Team() {
         const observer = new IntersectionObserver(([entry]) => {
             setIsIntersecting(entry.isIntersecting);
             // console.log(isIntersecting)
-        }, { rootMargin: "-180px", threshold: 1 });
+        }, { rootMargin: "-100px", threshold: 1 });
         observer.observe(ref.current);
 
         // const observerLine = new IntersectionObserver(([entry]) => {
@@ -67,7 +67,7 @@ function Team() {
                     </div>
                 </div>
                 <div ref={ref}>
-                    <div className=" hidden absolute top-0 left-4 bg-orange-600 rounded-full drop-shadow-man-lg-team p-1">
+                    <div className=" hidden absolute top-1 left-4 bg-orange-600 rounded-full drop-shadow-man-lg-team p-1">
                         <HiUserGroup color="white" size="25" />
                     </div>
                     <div ref={refLine} className="">

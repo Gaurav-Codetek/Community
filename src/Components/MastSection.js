@@ -42,14 +42,14 @@ function MastSection() {
                     </div> */}
 
                     <div className="flex-col pt-10">
-                    <div className="bg-gray-800/20 -z-10 backdrop-blur-sm text-left animate-fade-tb ml-16 mr-5 p-4 rounded-md">
-                        <h1 className="text-cyan-400 text-xl"><b>CodersTek</b> Community</h1>
-                        <p className="text-base flex items-center"><GoDotFill color='rgb(34 197 94)' className="mt-0.5 mr-px" />backed by<b className="text-green-500 p-px ml-0.5"> DIC</b></p>
+                    <div className="bg-gray-800/20 -z-10 backdrop-blur-sm text-left animate-fade-tb ml-16 mr-0 p-4 rounded-md">
+                        <h1 className="text-cyan-400 text-md"><b>CodersTek</b> Community</h1>
+                        <p className="text-sm flex items-center"><GoDotFill color='rgb(34 197 94)' className="mt-0.5 mr-px" />backed by<b className="text-green-500 p-px ml-0.5"> DIC</b></p>
                     </div>
-                        <h1 className="text-left text-55xl font-semibold mr-12 pl-8 animate-fadeOnly mb-4 mt-10">Let's start from here</h1>
-                        <h1 className="text-slate-500 text-left pl-8 mr-10 text-2xl mb-8 animate-fadeOnly">One-stop Platform to surf various<b className='ml-2 text-cyan-400'>PROJECTS</b></h1>
-                        <input type="text" name="email" id="email" placeholder='Email address' className="animate-fade-seq-1 w-4/5 mb-3 py-2 rounded-md text-black border-2 focus:border-indigo-600 outline-none px-2" />
-                        <input type="submit" value="Sign up for CodersTek" className="animate-fade-seq-2 bg-indigo-900 hover:bg-indigo-950 py-3 font-bold w-4/5 rounded-md" />
+                        <h1 className="text-left text-5xl font-semibold mr-0 pl-5 animate-fadeOnly mb-4 mt-10">Let's start from here</h1>
+                        <h1 className="text-slate-500 text-left pl-5 text-2xl mb-8 animate-fadeOnly">One-stop Platform to surf various<b className='ml-2 text-cyan-400'>PROJECTS</b></h1>
+                        <input type="text" name="email" id="email" placeholder='Email address' className="animate-fade-seq-1 w-11/12 ml-4 mb-3 py-2 rounded-md text-black border-2 focus:border-indigo-600 outline-none px-2" />
+                        <input type="submit" value="Sign up for CodersTek" className="animate-fade-seq-2 bg-indigo-900 hover:bg-indigo-950 py-3 font-bold w-11/12 ml-4  rounded-md" />
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@ function MastSection() {
                     dads
                 </div>
                 {/* <div className="w-full "> */}
-                    <div id="line" className="w-full transition-2 left-8 absolute top-44 animate-line bg-gradient-to-r from-indigo-600 from-50% via-indigo-500 via-60% to-lime-300   p-px  rounded-sm rotate-90 origin-left transition-2">
+                    <div id="line" className="w-96 transition-2 left-8 absolute top-44 animate-line bg-gradient-to-r from-indigo-600 from-50% via-indigo-500 via-60% to-lime-300   p-px  rounded-sm rotate-90 origin-left transition-2">
                         {/* <hr id="line" className="w-10 border-y-2 border-violet-400 rotate-90 origin-left transition-2"/> */}
                     {/* </div> */}
                 </div>
