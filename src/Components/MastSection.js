@@ -6,6 +6,8 @@ import Connect from './Images/connect.png'
 import ConnLine from './Images/Untitled_design__45_-removebg-preview.png'
 import Moon from './Images/Moon-removebg-preview.png'
 import Sat from './Images/satellite.png'
+import Partner from './Partner'
+import Team from './Team'
 
 function MastSection() {
 
@@ -34,13 +36,17 @@ function MastSection() {
                     <div className="absolute top-30 left-4 rounded-full bg-indigo-600 drop-shadow-man-lg p-1 animate-fade">
                         <VscSymbolNamespace className=' fill-current' size="25" />
                     </div>
-                    <div className="bg-gray-800/20 -z-10 backdrop-blur-sm text-left animate-fade-tb p-4 absolute top-12 left-24 rounded-md">
+                    {/* <div className="bg-gray-800/20 -z-10 backdrop-blur-sm text-left animate-fade-tb ml-16 mr-5 p-4 rounded-md">
+                        <h1 className="text-cyan-400 text-xl"><b>CodersTek</b> Community</h1>
+                        <p className="text-base flex items-center"><GoDotFill color='rgb(34 197 94)' className="mt-0.5 mr-px" />backed by<b className="text-green-500 p-px ml-0.5"> DIC</b></p>
+                    </div> */}
+
+                    <div className="flex-col pt-10">
+                    <div className="bg-gray-800/20 -z-10 backdrop-blur-sm text-left animate-fade-tb ml-16 mr-5 p-4 rounded-md">
                         <h1 className="text-cyan-400 text-xl"><b>CodersTek</b> Community</h1>
                         <p className="text-base flex items-center"><GoDotFill color='rgb(34 197 94)' className="mt-0.5 mr-px" />backed by<b className="text-green-500 p-px ml-0.5"> DIC</b></p>
                     </div>
-
-                    <div className="flex-col pt-40">
-                        <h1 className="text-left text-55xl font-semibold mr-12 pl-8 animate-fadeOnly mb-4">Let's start from here</h1>
+                        <h1 className="text-left text-55xl font-semibold mr-12 pl-8 animate-fadeOnly mb-4 mt-10">Let's start from here</h1>
                         <h1 className="text-slate-500 text-left pl-8 mr-10 text-2xl mb-8 animate-fadeOnly">One-stop Platform to surf various<b className='ml-2 text-cyan-400'>PROJECTS</b></h1>
                         <input type="text" name="email" id="email" placeholder='Email address' className="animate-fade-seq-1 w-4/5 mb-3 py-2 rounded-md text-black border-2 focus:border-indigo-600 outline-none px-2" />
                         <input type="submit" value="Sign up for CodersTek" className="animate-fade-seq-2 bg-indigo-900 hover:bg-indigo-950 py-3 font-bold w-4/5 rounded-md" />
@@ -59,6 +65,13 @@ function MastSection() {
                 <hr />
             </div> */}
             </div>
+            
+            </div>
+            <div className='h-fit'>
+            <Partner/>
+            </div>
+            <div className='h-full'>
+            <Team/>
             </div>
             
         </>

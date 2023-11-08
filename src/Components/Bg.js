@@ -10,7 +10,8 @@ function Bg(){
         <div className="bg-cover relative -z-0 bg-img h-full overflow-x-hidden">
             <Navbar/>
             <MastSection/>
-            <Partner/>
+            {/* <Partner/>
+            <Team/> */}
         </div>
         </>
     );
