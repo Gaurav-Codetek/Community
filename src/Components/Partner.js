@@ -59,6 +59,7 @@ function Partner() {
 
     return (
         <>
+        
             <div className="relative h-full mt-0 ">
                 <div ref={refPartner} className="">
                 <div className="hidden text-white absolute top-24 left-14 text-lg">

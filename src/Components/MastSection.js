@@ -22,6 +22,7 @@ function MastSection() {
             <div className=" ">
                 <img src={Sat} alt="Satellite" className=' absolute  right-44 top-44 h-14 w-14 -rotate-45 animate-sat -z-30' />
             </div>
+            <div className="">
             <div className=" relative h-fit w-full px-8 mt-32" >
                 <div className=" w-full text-white h-5/6">
                     <div className="absolute top-20 left-5 h-36 w-10">
@@ -57,6 +58,7 @@ function MastSection() {
                 {/* <div className=" mt-16">
                 <hr />
             </div> */}
+            </div>
             </div>
             
         </>
